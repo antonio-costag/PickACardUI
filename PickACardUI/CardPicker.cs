@@ -9,6 +9,12 @@ namespace PickACardUI
     class CardPicker
     {
         static Random random = new Random();
+
+        /// <summary>
+        /// Um metodo que retorna um array de strings com o número de cartas que o usuário escolheu.
+        /// </summary>
+        /// <param name="numberOfCardes"></param>
+        /// <returns>retorna um arrey de strings com o número de cartas que o usuário escolheu.</returns>
         public static string[] PickSomeCards(int numberOfCardes)
         {
             string[] pickedCards = new string[numberOfCardes];
